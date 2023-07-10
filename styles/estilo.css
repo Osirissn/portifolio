@@ -36,7 +36,7 @@ body {
     border-radius:30px;   
     padding: 25px;
     transition-duration: 860ms;
-    font-weight: bold;  
+    
 
 }
 .cabecalho__menu__link:hover{   
@@ -44,10 +44,8 @@ body {
     background-color: #111111;
     color: #f6f6f6; 
     box-shadow: 0 0 50px 20px rgba(2, 140, 167, 0.25); 
-    transition: 860ms; 
-    font-size: 1.2rem;   
-    font-weight: normal;
-     
+    transition: 900ms; 
+    transform: scale(1.1);     
 }
 
 .cabecalho__menu__foto{
@@ -162,7 +160,9 @@ img{
 .apresentacao__links__link:hover{
     background-color: var(--cor-primaria);
     transition: 915ms;
-    box-shadow: 0 0 50px 20px rgba(4, 77, 92, 0.5); 
+    box-shadow: 0 0 50px 20px rgba(4, 77, 92, 0.5);
+    color: var(--cor-secundaria); 
+    transform: scale(1.07);
 }
 .rodape{
     padding-top: 22px;
@@ -251,6 +251,15 @@ img{
        width: 35%;
     }
  
+}
+@media(min-width: 2348px) {
+    .rodape{
+        margin-top: 200px;
+        padding-bottom: 15px;
+    }
+    .cabecalho{
+        gap: 65%;
+    }
 }
 
 
